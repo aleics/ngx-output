@@ -1,0 +1,46 @@
+{
+  "name": "ngx-output",
+  "version": "0.1.0",
+  "description": "Tiny library to provide utility decorators for Angular component's outputs",
+  "author": "Aleix Casanovas (aleics)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleics/ngx-output.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aleics/ngx-output/issues"
+  },
+  "homepage": "https://github.com/aleics/ngx-output#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jestconfig.json",
+    "lint": "eslint '*/**/*.ts'"
+  },
+  "devDependencies": {
+    "@angular/core": "^12.0.3",
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "jest": "^27.0.4",
+    "rxjs": "^7.1.0",
+    "ts-jest": "^27.0.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.3.2"
+  },
+  "peerDependencies": {
+    "@angular/core": "^12.0.3",
+    "rxjs": "^7.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
+  },
+  "files": [
+    "dist/*",
+    "package.json",
+    "LICENSE"
+  ]
+}
